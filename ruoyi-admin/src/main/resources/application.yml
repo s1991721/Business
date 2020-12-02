@@ -117,3 +117,7 @@ xss:
   excludes: /system/notice/*
   # 匹配链接
   urlPatterns: /system/*,/monitor/*,/tool/*
+
+# 管理系统地址
+lord:
+  url: http://localhost:8081
