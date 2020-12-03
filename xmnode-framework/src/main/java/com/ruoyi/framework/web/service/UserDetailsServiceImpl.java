@@ -19,7 +19,7 @@ import javax.annotation.Resource;
 /**
  * 用户验证处理
  *
- * @author ruoyi
+ * @author Mr.Lin
  */
 @Service
 public class UserDetailsServiceImpl implements UserDetailsService {
