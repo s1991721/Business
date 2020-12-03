@@ -12,7 +12,7 @@
     <description>业务系统</description>
     
     <properties>
-        <ruoyi.version>1.0.0</ruoyi.version>
+        <xmnode.version>1.0.0</xmnode.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
@@ -162,28 +162,28 @@
             <dependency>
                 <groupId>com.xmnode</groupId>
                 <artifactId>xmnode-quartz</artifactId>
-                <version>${ruoyi.version}</version>
+                <version>${xmnode.version}</version>
             </dependency>
 
             <!-- 核心模块-->
             <dependency>
                 <groupId>com.xmnode</groupId>
                 <artifactId>xmnode-framework</artifactId>
-                <version>${ruoyi.version}</version>
+                <version>${xmnode.version}</version>
             </dependency>
 			
             <!-- 系统模块-->
             <dependency>
                 <groupId>com.xmnode</groupId>
                 <artifactId>xmnode-system</artifactId>
-                <version>${ruoyi.version}</version>
+                <version>${xmnode.version}</version>
             </dependency>
 			
             <!-- 通用工具-->
             <dependency>
                 <groupId>com.xmnode</groupId>
                 <artifactId>xmnode-common</artifactId>
-                <version>${ruoyi.version}</version>
+                <version>${xmnode.version}</version>
             </dependency>
 
         </dependencies>
