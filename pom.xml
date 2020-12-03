@@ -182,7 +182,7 @@
             <!-- 通用工具-->
             <dependency>
                 <groupId>com.ruoyi</groupId>
-                <artifactId>ruoyi-common</artifactId>
+                <artifactId>xmnode-common</artifactId>
                 <version>${ruoyi.version}</version>
             </dependency>
 
@@ -194,7 +194,7 @@
         <module>xmnode-framework</module>
         <module>xmnode-system</module>
         <module>xmnode-quartz</module>
-        <module>ruoyi-common</module>
+        <module>xmnode-common</module>
     </modules>
     <packaging>pom</packaging>
 
