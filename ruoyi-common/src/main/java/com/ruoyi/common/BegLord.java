@@ -9,6 +9,11 @@ import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
 /**
  * 管理系统相关调用
  *
@@ -32,8 +37,11 @@ public class BegLord {
 
     public SysUser getUserByName(String name) {
         String json = HttpUtils.sendPost(url + "/open/getUserByName", "username=" + name);
-        SysUser user = new SysUser();
-        BeanUtils.copyProperties(JSON.parseObject(json, SysUser.class), user);
-        return user;
+        return JSON.parseObject(json, SysUser.class);
+    }
+
+    public Set<String> selectMenuPermsByUserId(Long userId) {
+        String json = HttpUtils.sendPost(url + "/open/selectMenuPermsByUserId", "userId=" + userId);
+        return new HashSet<String>(JSON.parseArray(json,String.class));
     }
 }
