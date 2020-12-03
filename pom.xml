@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	
-    <groupId>com.ruoyi</groupId>
-    <artifactId>ruoyi</artifactId>
+    <groupId>com.xmnode</groupId>
+    <artifactId>business</artifactId>
     <version>3.2.1</version>
 
     <name>BusinessSystem</name>
@@ -160,28 +160,28 @@
             
             <!-- 定时任务-->
             <dependency>
-                <groupId>com.ruoyi</groupId>
+                <groupId>com.xmnode</groupId>
                 <artifactId>xmnode-quartz</artifactId>
                 <version>${ruoyi.version}</version>
             </dependency>
 
             <!-- 核心模块-->
             <dependency>
-                <groupId>com.ruoyi</groupId>
+                <groupId>com.xmnode</groupId>
                 <artifactId>xmnode-framework</artifactId>
                 <version>${ruoyi.version}</version>
             </dependency>
 			
             <!-- 系统模块-->
             <dependency>
-                <groupId>com.ruoyi</groupId>
+                <groupId>com.xmnode</groupId>
                 <artifactId>xmnode-system</artifactId>
                 <version>${ruoyi.version}</version>
             </dependency>
 			
             <!-- 通用工具-->
             <dependency>
-                <groupId>com.ruoyi</groupId>
+                <groupId>com.xmnode</groupId>
                 <artifactId>xmnode-common</artifactId>
                 <version>${ruoyi.version}</version>
             </dependency>
