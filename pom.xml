@@ -168,7 +168,7 @@
             <!-- 核心模块-->
             <dependency>
                 <groupId>com.ruoyi</groupId>
-                <artifactId>ruoyi-framework</artifactId>
+                <artifactId>xmnode-framework</artifactId>
                 <version>${ruoyi.version}</version>
             </dependency>
 			
@@ -191,7 +191,7 @@
 
     <modules>
         <module>xmnode-admin</module>
-        <module>ruoyi-framework</module>
+        <module>xmnode-framework</module>
         <module>xmnode-system</module>
         <module>xmnode-quartz</module>
         <module>ruoyi-common</module>
