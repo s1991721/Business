@@ -39,6 +39,6 @@ public class BegLord {
 
     public Set<String> selectMenuPermsByUserId(Long userId) {
         String json = HttpUtils.sendPost(url + "/open/selectMenuPermsByUserId", "userId=" + userId);
-        return new HashSet<String>(JSON.parseArray(json,String.class));
+        return new HashSet<String>(JSON.parseArray(json, String.class));
     }
 }

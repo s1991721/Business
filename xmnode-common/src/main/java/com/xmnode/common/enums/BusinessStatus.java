@@ -2,12 +2,10 @@ package com.xmnode.common.enums;
 
 /**
  * 操作状态
- * 
- * @author Mr.Lin
  *
+ * @author Mr.Lin
  */
-public enum BusinessStatus
-{
+public enum BusinessStatus {
     /**
      * 成功
      */

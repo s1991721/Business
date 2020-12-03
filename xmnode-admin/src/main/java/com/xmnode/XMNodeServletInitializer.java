@@ -5,14 +5,12 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 
 /**
  * web容器中进行部署
- * 
+ *
  * @author Mr.Lin
  */
-public class XMNodeServletInitializer extends SpringBootServletInitializer
-{
+public class XMNodeServletInitializer extends SpringBootServletInitializer {
     @Override
-    protected SpringApplicationBuilder configure(SpringApplicationBuilder application)
-    {
+    protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
         return application.sources(XMNodeApplication.class);
     }
 }

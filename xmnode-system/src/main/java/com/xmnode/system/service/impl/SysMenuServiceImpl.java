@@ -1,15 +1,6 @@
 package com.xmnode.system.service.impl;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Set;
-import java.util.stream.Collectors;
-
 import com.xmnode.common.BegLord;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 import com.xmnode.common.constant.UserConstants;
 import com.xmnode.common.core.domain.TreeSelect;
 import com.xmnode.common.core.domain.entity.SysMenu;
@@ -23,8 +14,12 @@ import com.xmnode.system.mapper.SysMenuMapper;
 import com.xmnode.system.mapper.SysRoleMapper;
 import com.xmnode.system.mapper.SysRoleMenuMapper;
 import com.xmnode.system.service.ISysMenuService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+import java.util.*;
+import java.util.stream.Collectors;
 
 /**
  * 菜单 业务层处理
