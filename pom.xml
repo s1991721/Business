@@ -193,7 +193,7 @@
         <module>xmnode-admin</module>
         <module>ruoyi-framework</module>
         <module>ruoyi-system</module>
-        <module>ruoyi-quartz</module>
+        <module>xmnode-quartz</module>
         <module>ruoyi-common</module>
     </modules>
     <packaging>pom</packaging>

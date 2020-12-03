@@ -64,7 +64,8 @@
         <!-- 定时任务-->
         <dependency>
             <groupId>com.ruoyi</groupId>
-            <artifactId>ruoyi-quartz</artifactId>
+            <artifactId>xmnode-quartz</artifactId>
+            <version>3.2.1</version>
         </dependency>
 
     </dependencies>
