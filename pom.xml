@@ -175,7 +175,7 @@
             <!-- 系统模块-->
             <dependency>
                 <groupId>com.ruoyi</groupId>
-                <artifactId>ruoyi-system</artifactId>
+                <artifactId>xmnode-system</artifactId>
                 <version>${ruoyi.version}</version>
             </dependency>
 			
