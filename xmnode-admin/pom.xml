@@ -65,7 +65,6 @@
         <dependency>
             <groupId>com.ruoyi</groupId>
             <artifactId>xmnode-quartz</artifactId>
-            <version>3.2.1</version>
         </dependency>
 
     </dependencies>
