@@ -32,7 +32,7 @@ public class SysDictTypeServiceImpl implements ISysDictTypeService
     /**
      * 项目启动时，初始化字典到缓存
      */
-    @PostConstruct
+//    @PostConstruct
     public void init()
     {
         List<SysDictType> dictTypeList = dictTypeMapper.selectDictTypeAll();
