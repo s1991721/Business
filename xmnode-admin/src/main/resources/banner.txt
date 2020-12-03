@@ -1,2 +1,2 @@
-Application Version: ${node.version}
+Application Version: ${xmnode.version}
 Spring Boot Version: ${spring-boot.version}

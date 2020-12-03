@@ -36,7 +36,7 @@ public class CaptchaController
     private RedisCache redisCache;
     
     // 验证码类型
-    @Value("${node.captchaType}")
+    @Value("${xmnode.captchaType}")
     private String captchaType;
 
     /**

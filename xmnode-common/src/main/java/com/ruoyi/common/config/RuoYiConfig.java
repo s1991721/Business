@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
  * @author Mr.Lin
  */
 @Component
-@ConfigurationProperties(prefix = "node")
+@ConfigurationProperties(prefix = "xmnode")
 public class RuoYiConfig
 {
     /** 项目名称 */
